@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="listit_logo" type="id" />
+    <item name="login_user" type="id" />
+    <item name="login_password" type="id" />
+    <item name="button_login" type="id" />
+</resources>

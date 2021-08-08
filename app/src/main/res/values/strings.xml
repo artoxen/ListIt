@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">List It</string>
+    <string name="new_item">New Item</string>
+    <string name="save">Save</string>
+    <string name="items">ITEMS</string>
+    <string name="enter_amount">Enter amount</string>
+    <string name="note">Note</string>
+</resources>

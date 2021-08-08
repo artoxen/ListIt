@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height = "match_parent"
+    android:paddingLeft= "@dimen/activity_horizontal_margin"
+    android:paddingRight = "@dimen/activity_horizontal_margin"
+    android:paddingTop = "@dimen/activity_vertical_margin"
+    android:paddingBottom = "@dimen/activity_vertical_margin"
+    tools:context = ".LoginActivity">
+
+    <ImageView
+        android:id="@+id/listit_logo"
+        android:src="@drawable/logo_listit"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:id="@+id/login_user"
+        android:layout_marginTop="10dp"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/listit_logo"
+        android:layout_centerHorizontal="true"
+        android:text="abcd"
+        android:ems="10" />
+<!--        android:hint="Enter Username"-->
+
+    <EditText
+        android:id = "@+id/login_password"
+        android:layout_marginTop="10dp"
+        android:layout_width = "210dp"
+        android:layout_height = "wrap_content"
+        android:layout_centerHorizontal="true"
+        android:inputType = "textPassword"
+        android:layout_below="@id/login_user"
+        android:text="1234"/>
+<!--        android:hint="Enter Password" -->
+    <Button
+        android:id="@+id/button_login"
+        android:layout_marginTop="10dp"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_password"
+        android:layout_centerHorizontal="true"
+        android:text="LOGIN"/>
+    <Button
+        android:id="@+id/button_register"
+        android:layout_marginTop="10dp"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_login"
+        android:layout_centerHorizontal="true"
+        android:text="Register"/>
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="8dp"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="100"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="59.9">
+
+            <CheckBox
+                android:id="@+id/todoCheckBox"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:buttonTint="@color/green_2"
+                android:paddingStart="8dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                tools:text="Apples" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="40">
+
+            <TextView
+                android:gravity="center"
+                android:text="Amount"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:id="@+id/todoAmount"/>
+
+            <TextView
+                android:gravity="center"
+                android:text="No note added"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:id="@+id/todoNote" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
