@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity implements DialogCloseListen
         ItemTouchHelper itemTouchHelper = new ItemTouchHelper(new RecyclerItemTouchHelper(taskAdapter));
         itemTouchHelper.attachToRecyclerView(taskRecyclerView);
 
+        //zzz
         taskList = db.getAllTasks();
         Collections.reverse(taskList);
         taskAdapter.setTasks(taskList);
